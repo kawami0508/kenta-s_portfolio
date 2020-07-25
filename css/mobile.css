@@ -1,0 +1,282 @@
+@media screen and (max-width: 800px){
+	body{
+		padding:0px;
+		margin:0px;
+	}
+	#loader-bg {
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		left: 0px;
+		background: #000;
+		opacity:.8;
+		z-index: 1;
+	}
+	#loader {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		margin-top: -100px;
+		margin-left: -100px;
+		text-align: center;
+		color: #fff;
+		z-index: 2;
+	}
+
+	.sns-box{
+		width:100%;
+	}
+	.sns{
+		margin-top:200px;
+	}
+	.sns i {
+		display:block;
+	}
+	.sns a{
+		color:white;
+		margin-bottom:20px;
+	}
+	.sns a:hover{
+		text-decoration:none;
+	}
+	.humberger{
+		width:200px;
+		position:fixed;
+		text-align:right;
+		top:23px;
+		right:0px;
+	}
+	.ul_open_h{ 
+	    background: gray; 
+	    opacity:.8;
+	    color: #fff; 
+	    margin: 0; 
+	    padding: 0; 
+	    list-style: none; 
+	    top: 0;  
+	}
+	.ul_open_h{  
+	    height: 100%; 
+	    -webkit-transition: .35s ease-in-out; 
+	    -moz-transition: .35s ease-in-out; 
+	    transition: .35s ease-in-out; 
+	    overflow-y: scroll; 
+	    position: fixed;  
+	} 
+	.ul_open_h li{ 
+	    padding: 10px; 
+	    width: 150px;  
+	} 
+	.open-1{
+	    right : -100%;
+	}
+	.open-1.active{
+	    right : 0px;
+	}
+
+	.move-1.on.site{
+	    position: fixed;
+	    right: 25px;
+	    top: 10px;
+	}
+	.h-box{
+		width:100%;
+		height:100px;
+		position:fixed;
+		display:flex;
+		background:rgba(0,0,0,0);
+		z-index:100000;
+	}
+	.h-title{
+		position:absolute;
+		top:200px;
+		left:150px;
+	}
+	.h-title h1{
+		color:white;
+		font-weight:bold;
+		letter-spacing:1.5px;
+	}
+	.h-logo{
+		margin-left:20px;
+		margin-top:20px;
+	}
+	.h-logo h1{
+		color:orange;
+		font-weight:bold;
+	}
+	.h-list{
+		margin:auto;
+		width:600px;
+		display:none;
+	}
+	.h-list ul{
+		display:flex;
+		list-style:none;
+	}
+	.h-list ul li{
+		flex:1;
+		text-align:center;
+	}
+	.h-list ul li a{
+		font-size:24px;
+		color:white;
+		line-height:100px;
+	}
+	.main1{
+		width:100%;
+	}
+	.main-img{
+		width:100%;
+		background-size:cover;
+		background-position:center;
+	}
+	.introduce{
+		width:100%;
+		background-color:#222222;
+		z-index:1000;
+		padding:60px 60px;
+		color:white;
+	}
+	.i-img{
+		width:50%;
+		margin:0 auto;
+	}
+	.i-img img{
+		width:100%;
+	}
+	.i-title{
+		flex:1;
+		text-align:center;
+	}
+	.i-title h2{
+		line-height:200px;
+	}
+	.i-text p {
+		font-size:15px;
+	}
+	.skill{
+		width:100%;
+		background:white;
+	    z-index:1000;
+	    opacity:.8;
+	}
+	.s-content{
+		height:250px;
+		position:relative;
+	}
+	.s-content i{
+		position: absolute; 
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto; 
+		width: 130px;
+		height: 100px;
+		font-size:130px; 
+	}
+	.coading-site{
+		display:flex;
+		background:gray;
+		width:100%;
+	}
+	.coading-box{
+		flex:1;
+	}
+	.btn{
+		color:white;
+	}
+	.more{
+		background:black;
+		width:80px;
+		text-align:center;
+		position:relative;
+		overflow:hidden;
+	}
+	.more a{
+		color:orange;
+		font-size:20px;
+		position:absolute;
+		top:0;
+		left:0px;
+		width:100%;
+		height:100%;
+		line-height:550px;
+	}
+	.more a:hover{
+		color:orange;
+		text-decoration:none;
+		font-size:25px;
+		transition:.5s;
+		opacity:0.8;
+		letter-spacing:1.5px;
+	}
+	.card-body{
+		text-align:center;
+		height:300px;
+	}
+	.idea{
+		width:100%;
+		color:white;
+		background:#222222;
+	}
+	.main6{
+		background:gray;
+	}
+	.contact{
+		width:100%;
+		margin:0 auto;
+		background-position:center;
+		padding:50px 0px;
+	}
+	.container{
+		padding:0px;
+	}
+	.contact-box{
+		width:70%;
+		margin:0 auto;
+	}
+	input,textarea{
+		width:100%;
+		margin:30px;
+		padding:10px;
+		border-radius:5px;
+	}
+	textarea{
+		height:200px;
+	}
+	.OF_submit_btn1{
+		width:50%;
+		background:orange;
+		border:none;
+		margin-top:20px;
+		color:white;
+	}
+	.contact-box p{
+		font-size:23px;
+		color:white;
+		margin-bottom:0px;
+	}
+
+	.f-box{
+		height:200px;
+		background-color:#2b3f43;
+	}
+	.f-box p{
+		line-height:185px;
+		color:white;
+	}
+	.idea-text{
+		display:flex;
+	}
+	.service-left{
+		flex:1;
+	}
+	.service-right{
+		flex:1;
+	}
+}
